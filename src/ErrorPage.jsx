@@ -1,11 +1,14 @@
 import React from "react";
 import { Footer } from "./components/Footer";
 import { Navbar } from "./components/Navbar";
+import { Link } from "react-router-dom";
+
 function ErrorPage() {
+  document.title = "Error | seeVR";
   return (
     <div>
       <Navbar />
-      <main className="container mx-auto px-6 pt-16 flex-1 text-center min-h-screen flex flex-col items-center border-t-2 border-gray-300 text-gray-700">
+      <main className="container mx-auto max-w-7xl px-6  pt-16 flex-1 text-center min-h-screen flex flex-col items-center text-gray-700">
         <div>
           <h1 className="text-2xl mt-10 text-gray-900 px-5">
             This page isn't available
@@ -24,7 +27,7 @@ function ErrorPage() {
             className=" bg-sky-600 hover:bg-cyan-500 text-white font-bold
  py-4 px-7 rounded-full text-m"
           >
-            back to homepage
+            <Link to="/"> back to homepage</Link>
           </button>
         </div>
       </main>
