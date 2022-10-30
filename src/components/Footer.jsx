@@ -1,5 +1,6 @@
 import React from "react";
 import { BsTwitter, BsFacebook, BsInstagram } from "react-icons/bs";
+
 export const Footer = () => {
   return (
     <footer className="container mx-auto p-5 flex flex-col md:flex-row items-center justify-between bg-white text-black">
