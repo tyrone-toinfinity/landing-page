@@ -2,9 +2,7 @@ module.exports = {
   content: ["./src/**/*.{js,jsx}"],
   theme: {
     extend: {
-      colors: {
-        primary: "#EE9789",
-      },
+      colors: {},
     },
     fontFamily: {
       sans: ["Montserrat", "sans-serif"],

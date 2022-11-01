@@ -67,3 +67,9 @@
     transform: translateY(0px);
   }
 }
+
+.btn-landing {
+  animation: slideUp 1.4s ease;
+  animation-delay: 1.1s;
+  animation-fill-mode: backwards;
+}
