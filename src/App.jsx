@@ -7,7 +7,7 @@ function App() {
     <div>
       <Routes>
         <Route path="/" element={<Home />}></Route>
-        <Route path="/error" element={<ErrorPage />}></Route>
+        <Route path="*" element={<ErrorPage />}></Route>
       </Routes>
     </div>
   );

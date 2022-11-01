@@ -1,0 +1,30 @@
+.mobile {
+}
+
+.hide {
+  animation: slideOut 1s ease;
+  display: none;
+}
+
+.show {
+  animation: slideIn 1s ease;
+  display: block;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideOut {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

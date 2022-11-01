@@ -1,5 +1,5 @@
 .hero-image {
-  background-image: url("../../public/vr-bg.svg");
+  background-image: url("vr-bg.svg");
   background-size: cover;
   background-position: top center;
 }
