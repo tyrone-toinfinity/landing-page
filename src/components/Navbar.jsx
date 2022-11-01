@@ -53,8 +53,11 @@ export const Navbar = () => {
                 Support
               </Link>
             </li>
-            <li>
-              <BsHandbag className=" hover:text-blue-900 text-lg cursor-pointer ml-4" />
+            <li className="relative">
+              <BsHandbag className=" hover:text-blue-900 text-lg cursor-pointer ml-4 " />
+              <p className="absolute  text-white top-2 left-7 bg-cyan-800 px-1 rounded-full font-bold">
+                {5}
+              </p>
             </li>
           </ul>
         </nav>
