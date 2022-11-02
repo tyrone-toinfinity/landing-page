@@ -6,12 +6,11 @@ import { useState } from "react";
 import "../css/Navbar.css";
 
 export const Navbar = () => {
-  // Menu Buttonå
+  // Menu Button
   const [open, setOpen] = useState(false);
 
   return (
     <div>
-      {" "}
       <div className="mt-0 text-center ">
         <h1 className="uppercase p-2 bg-cyan-800 text-white font-bold text-xs">
           free shipping and returns on all VR devices!

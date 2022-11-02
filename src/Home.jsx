@@ -3,6 +3,7 @@ import { Navbar } from "./components/Navbar";
 import { Landing } from "./components/Landing";
 import { Footer } from "./components/Footer";
 import "./css/Home.css";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
