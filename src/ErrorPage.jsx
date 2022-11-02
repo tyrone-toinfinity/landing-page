@@ -24,7 +24,7 @@ function ErrorPage() {
 
         <div>
           <button
-            className=" bg-sky-600 hover:bg-cyan-500 text-white font-bold
+            className=" bg-sky-600 hover:bg-cyan-800 text-white font-bold
  py-4 px-7 rounded-full text-m"
           >
             <Link to="/"> back to homepage</Link>
