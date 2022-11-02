@@ -17,9 +17,12 @@ export default function Learn() {
             collaborate.
           </h5>
           <p className="mt-3 md:text-xl   ">Starting at 799.99 USD</p>
-          <button class="bg-blue-500 hover:bg-cyan-800 text-white font-bold py-2 px-4 rounded-full mt-8">
-            Buy now
-          </button>
+          <Link to="/">
+            {" "}
+            <button class="bg-blue-500 hover:bg-cyan-800 text-white font-bold py-2 px-4 rounded-full mt-8">
+              Buy now
+            </button>
+          </Link>
         </div>
       </section>
       <Footer />
