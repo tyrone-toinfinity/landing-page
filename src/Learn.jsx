@@ -1,9 +1,9 @@
 import React from "react";
-import { Footer } from "./components/Footer";
 import { Navbar } from "./components/navbar";
+import { Footer } from "./components/Footer";
 import videoBG from "../public/video/seeVR.mp4";
-import "./css/Learn.css";
 import { Link } from "react-router-dom";
+import "./css/Learn.css";
 
 function Learn() {
   return (
