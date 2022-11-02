@@ -5,7 +5,7 @@ import videoBG from "../public/video/seeVR.mp4";
 import "./css/Learn.css";
 import { Link } from "react-router-dom";
 
-export default function Learn() {
+function Learn() {
   return (
     <div>
       <Navbar />
@@ -30,3 +30,4 @@ export default function Learn() {
     </div>
   );
 }
+export default Learn;
