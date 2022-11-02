@@ -31,6 +31,7 @@ function ErrorPage() {
           </button>
         </div>
       </main>
+      <Footer />
     </div>
   );
 }
