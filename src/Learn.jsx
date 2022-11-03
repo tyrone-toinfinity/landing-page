@@ -9,6 +9,7 @@ function Learn() {
   return (
     <div>
       <Navbar />
+
       <section className="main">
         <video
           src={videoBG}
@@ -18,6 +19,7 @@ function Learn() {
           type="video/mp4"
           className="mainVideo"
         ></video>
+
         <div className="learn-title text-white text-center">
           <h1 className="capitalize text-4xl md:text-7xl">this is quill pro</h1>
           <h5 className="w-8/12 mt-4 text-xl  md:text-3xl">
