@@ -13,7 +13,7 @@ function Learn() {
       <section className="main">
         <video
           src={videoBG}
-          autoPlay="false"
+          autoPlay
           loop
           playsinline
           muted
