@@ -15,6 +15,7 @@ function Learn() {
           src={videoBG}
           autoPlay="false"
           loop
+          playsinline
           muted
           type="video/mp4"
           className="mainVideo"
